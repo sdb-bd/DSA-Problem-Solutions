@@ -67,3 +67,56 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Python
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python profiling
+.prof
+
+# mypy
+.mypy_cache/
+
+# Pyright
+.pyright/
+
+# Python dotenv / local environment files
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/

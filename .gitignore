@@ -120,3 +120,5 @@ htmlcov/
 # IDE settings
 .vscode/
 .idea/
+# Compiled C++ executables
+*.exe
